@@ -1,0 +1,22 @@
+{
+    "servers": {
+        "s1": {
+            "id": "server1",
+            "network": "n1",
+            "protocols": ["http", "ssh"]
+        },
+        "s2": {
+            "id": "server2",
+            "network": "n2",
+            "protocols": ["telnet"]
+        }
+    },
+    "networks": {
+        "n1": {
+            "public": true
+        },
+        "n2": {
+            "public": false
+        }
+    }
+}
